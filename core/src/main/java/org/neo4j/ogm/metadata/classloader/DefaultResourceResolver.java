@@ -22,6 +22,7 @@ import java.net.URL;
 /**
  * @author vince
  */
+@Deprecated
 public class DefaultResourceResolver implements ResourceResolver
 {
 

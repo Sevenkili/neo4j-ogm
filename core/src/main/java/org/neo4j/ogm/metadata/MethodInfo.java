@@ -24,6 +24,7 @@ import org.neo4j.ogm.typeconversion.CompositeAttributeConverter;
  * @author Vince Bickers
  * @author Luanne Misquitta
  */
+@Deprecated
 public class MethodInfo {
 
     private final String className;

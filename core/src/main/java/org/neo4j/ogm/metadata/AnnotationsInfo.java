@@ -22,6 +22,7 @@ import java.util.Map;
 /**
  * @author Vince Bickers
  */
+@Deprecated
 public class AnnotationsInfo {
 
     private final Map<String, AnnotationInfo> classAnnotations = new HashMap<>();

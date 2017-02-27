@@ -35,6 +35,7 @@ import org.slf4j.LoggerFactory;
  * @author Luanne Misquitta
  * @author Mark Angrish
  */
+@Deprecated
 public class DomainInfo implements ClassFileProcessor {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ClassFileProcessor.class);

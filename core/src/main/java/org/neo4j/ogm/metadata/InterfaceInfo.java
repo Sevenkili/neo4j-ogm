@@ -18,6 +18,7 @@ package org.neo4j.ogm.metadata;
  *
  * @author Vince Bickers
  */
+@Deprecated
 public class InterfaceInfo {
 
     private final String interfaceName;

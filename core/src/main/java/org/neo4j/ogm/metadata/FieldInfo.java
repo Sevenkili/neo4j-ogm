@@ -30,6 +30,7 @@ import org.neo4j.ogm.utils.RelationshipUtils;
  * @author Luanne Misquitta
  * @author Mark Angrish
  */
+@Deprecated
 public class FieldInfo {
 
     private static final String primitives = "I,J,S,B,C,F,D,Z,[I,[J,[S,[B,[C,[F,[D,[Z";
@@ -108,7 +109,7 @@ public class FieldInfo {
     }
 
 
-    // should these two methods be on PropertyReader, RelationshipReader respectively?
+    // should these two methods be on FieldReader, RelationshipReader respectively?
     public String property() {
         if (persistableAsProperty()) {
             if (annotations != null) {

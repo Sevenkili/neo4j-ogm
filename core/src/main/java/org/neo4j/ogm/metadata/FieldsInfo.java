@@ -22,6 +22,7 @@ import java.util.*;
 /**
  * @author Vince Bickers
  */
+@Deprecated
 public class FieldsInfo {
 
     private static final int STATIC_FIELD = 0x0008;

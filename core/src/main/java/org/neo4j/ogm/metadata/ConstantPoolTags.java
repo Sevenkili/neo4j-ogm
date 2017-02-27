@@ -16,6 +16,7 @@ package org.neo4j.ogm.metadata;
 /**
  * @author Vince Bickers
  */
+@Deprecated
 interface ConstantPoolTags {
 
     int UTF_8          = 1;

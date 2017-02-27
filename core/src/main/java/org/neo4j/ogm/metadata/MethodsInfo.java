@@ -25,6 +25,7 @@ import org.neo4j.ogm.annotation.Transient;
  * @author Vince Bickers
  * @author Luanne Misquitta
  */
+@Deprecated
 public class MethodsInfo {
 
     private final Map<String, MethodInfo> methods = new HashMap<>();

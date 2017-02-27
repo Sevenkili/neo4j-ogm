@@ -15,7 +15,7 @@ package org.neo4j.ogm.metadata;
 
 import org.neo4j.ogm.annotation.Property;
 import org.neo4j.ogm.exception.MappingException;
-
+@Deprecated
 public class ClassValidator {
 
     private ClassInfo classInfo;

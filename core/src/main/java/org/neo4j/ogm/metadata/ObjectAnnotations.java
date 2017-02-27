@@ -23,6 +23,7 @@ import java.util.Map;
 /**
  * @author Vince Bickers
  */
+@Deprecated
 public class ObjectAnnotations {
 
     private String objectName; // fully qualified class, method or field name.

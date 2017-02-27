@@ -19,6 +19,7 @@ import java.io.IOException;
 /**
  * @author Vince Bickers
  */
+@Deprecated
 class ConstantPool {
 
     private final Object[] pool;

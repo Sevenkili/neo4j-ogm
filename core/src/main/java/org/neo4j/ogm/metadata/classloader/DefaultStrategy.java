@@ -20,6 +20,7 @@ package org.neo4j.ogm.metadata.classloader;
  * @author vince
  *
  */
+@Deprecated
 class DefaultStrategy implements Strategy {
 
     public ClassLoader classLoader(final Class caller) {

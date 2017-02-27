@@ -22,6 +22,7 @@ import java.util.Map;
  * @author Vince Bickers
  * @author Mark Angrish
  */
+@Deprecated
 public class AnnotationInfo {
 
     private String annotationName;

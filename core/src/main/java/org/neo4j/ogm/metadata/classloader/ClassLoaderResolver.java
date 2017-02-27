@@ -19,6 +19,7 @@ package org.neo4j.ogm.metadata.classloader;
  * @author vince
  *
  */
+@Deprecated
 public abstract class ClassLoaderResolver {
 
     private static final Strategy strategy;

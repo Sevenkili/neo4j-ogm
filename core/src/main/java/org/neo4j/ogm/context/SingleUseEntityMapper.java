@@ -98,7 +98,7 @@ public class SingleUseEntityMapper {
 
 	// TODO: the following is all pretty much identical to GraphEntityMapper so should probably be refactored
 	private void writeProperty(ClassInfo classInfo, Object instance, Map.Entry<String, Object> property) {
-		PropertyWriter writer = EntityAccessManager.getPropertyWriter(classInfo, property.getKey());
+		FieldWriter writer = EntityAccessManager.getPropertyWriter(classInfo, property.getKey());
 
 		if (writer == null) {
 			FieldInfo fieldInfo = classInfo.relationshipFieldByName(property.getKey());
@@ -122,8 +122,8 @@ public class SingleUseEntityMapper {
 			if (writer.type().isArray() || Iterable.class.isAssignableFrom(writer.type())) {
 				Class elementType = underlyingElementType(classInfo, property.getKey());
 				value = writer.type().isArray()
-						? EntityAccess.merge(writer.type(), value, new Object[]{}, elementType)
-						: EntityAccess.merge(writer.type(), value, Collections.EMPTY_LIST, elementType);
+						? FieldWriter.merge(writer.type(), value, new Object[]{}, elementType)
+						: FieldWriter.merge(writer.type(), value, Collections.EMPTY_LIST, elementType);
 			}
 			writer.write(instance, value);
 		} else {

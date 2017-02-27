@@ -33,6 +33,7 @@ import org.slf4j.LoggerFactory;
  * @author Vince Bickers
  * @author Luanne Misquitta
  */
+@Deprecated
 public class MetaData {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MetaData.class);

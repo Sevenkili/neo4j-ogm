@@ -18,6 +18,7 @@ package org.neo4j.ogm.metadata.classloader;
  *
  * @see DefaultStrategy
  */
+@Deprecated
 public interface Strategy {
 
     ClassLoader classLoader(Class caller);

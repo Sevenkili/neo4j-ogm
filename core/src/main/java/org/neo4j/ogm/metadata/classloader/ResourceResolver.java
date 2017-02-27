@@ -19,6 +19,7 @@ import java.net.URL;
 /**
  * @author vince
  */
+@Deprecated
 public interface ResourceResolver
 {
     /**

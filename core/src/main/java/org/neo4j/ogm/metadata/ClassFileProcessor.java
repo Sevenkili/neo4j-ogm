@@ -19,6 +19,7 @@ import java.io.InputStream;
 /**
  * @author Vince Bickers
  */
+@Deprecated
 public interface ClassFileProcessor {
 
     void process(InputStream inputStream) throws IOException;

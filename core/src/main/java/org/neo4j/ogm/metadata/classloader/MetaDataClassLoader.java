@@ -28,7 +28,7 @@ package org.neo4j.ogm.metadata.classloader;
  * @author vince
  *
  */
-
+@Deprecated
 public abstract class MetaDataClassLoader {
 
     private static final ClassLoader classLoader = ClassLoaderResolver.resolve();
