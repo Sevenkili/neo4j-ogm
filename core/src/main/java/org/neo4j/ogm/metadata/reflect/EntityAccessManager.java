@@ -40,6 +40,7 @@ import org.slf4j.LoggerFactory;
  * @author Adam George
  * @author Luanne Misquitta
  */
+@Deprecated
 public class EntityAccessManager {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(EntityAccessManager.class);

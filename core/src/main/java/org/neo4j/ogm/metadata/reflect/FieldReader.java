@@ -24,6 +24,7 @@ import org.neo4j.ogm.metadata.ObjectAnnotations;
  * @author Adam George
  * @author Luanne Misquitta
  */
+@Deprecated
 public class FieldReader {
 
     private final ClassInfo classInfo;

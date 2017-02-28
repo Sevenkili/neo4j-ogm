@@ -25,6 +25,7 @@ import org.neo4j.ogm.utils.ClassUtils;
  * @author Vince Bickers
  * @author Luanne Misquitta
  */
+@Deprecated
 public class FieldWriter {
 
 

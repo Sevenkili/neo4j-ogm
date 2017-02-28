@@ -30,6 +30,7 @@ import org.neo4j.ogm.model.Node;
  *
  * @author Adam George
  */
+@Deprecated
 public class EntityFactory {
 
     private final Map<String, String> taxaLeafClass = new HashMap<>();
